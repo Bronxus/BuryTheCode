@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'FontBleach';
+    src: url('/font/FontBleach.woff') format('woff');
+}
+
+
 body
 {
     display: flex;
@@ -10,16 +16,20 @@ body
     background-attachment: fixed;
     background-size: 100%;
     color: #fff;
+
+    font-family: 'FontBleach', sans-serif;
+
 }
 
 h2
 {
     font-size: 48px;
-    color: crimson;
-    background-color: blue;
+    color: #ff0000;
+    background-color: #0060b6;
     -webkit-text-stroke: white 1px;
     font-weight: 500;
     border-radius: 50px;
+    padding: 10px;
 }
 
 iframe
@@ -30,3 +40,4 @@ iframe
     margin: 50px;
     
 }
+
