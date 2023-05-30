@@ -21,14 +21,61 @@ body
 
 }
 
+.selecto
+{
+    background-color: #0060b6;
+    color: crimson;
+    font-weight: bolder;
+}
+
+.selecto::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+.selecto::-webkit-scrollbar-track {
+    background: #0060b6;
+}
+  
+  /* Handle */
+.selecto::-webkit-scrollbar-thumb {
+    background: crimson;
+}
+  
+  /* Handle on hover */
+.selecto::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+button
+{
+    background-color: #0060b6;
+    color: #ff0000;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    font-size: 32px;
+    font-family: 'FontBleach', sans-serif;
+}
+
+button:hover
+{
+    background-color: #fff;
+}
+
+
+option:hover
+{
+    background-color: white;
+}
+
 h2
 {
     font-size: 48px;
     color: #ff0000;
     background-color: #0060b6;
-    -webkit-text-stroke: white 1px;
+    -webkit-text-stroke: white 1.5px;
     font-weight: 500;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 10px;
 }
 
