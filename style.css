@@ -1,0 +1,32 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+    
+    background-image: url("bleach.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: #fff;
+}
+
+h2
+{
+    font-size: 48px;
+    color: crimson;
+    background-color: blue;
+    -webkit-text-stroke: white 1px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+iframe
+{
+    display: flex;
+    justify-content: center;
+    top: 150px;
+    margin: 50px;
+    
+}
